@@ -50,3 +50,19 @@
 		list-style:disc
 	}
 }
+
+.section-work {
+	width: 100%;
+	&__container {
+		height: 35vw;
+	}
+
+	&__tittle {
+		margin-top: 25%;
+		color: #D6EDFF;
+	}
+
+	&__paragraph {
+		color: $light-main;
+	}
+}
