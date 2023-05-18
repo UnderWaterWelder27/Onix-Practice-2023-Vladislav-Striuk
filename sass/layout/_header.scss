@@ -1,12 +1,16 @@
 .header {
-	position: relative;
+	background-color: $light-main;
+	
 	&__container {
-		position: relative;
+		height: 51.0vw;
 	}
 
 	img {
 		position: absolute;
 		width: 100%;
+		-webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 1)), to(rgba(73, 145, 179, 0.963)));
+		mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(73, 145, 179, 0.967));
+		height: 51.0vw;
 	}
 
 	&__tittle {
