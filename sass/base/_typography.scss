@@ -1,0 +1,49 @@
+* {
+	// Fonts - https://fonts.google.com/specimen/Aldrich
+	// Include .ttf font - https://www.geeksforgeeks.org/how-to-include-a-font-ttf-using-css/
+	// Dynamic Fonts - https://www.youtube.com/watch?v=Moely7aPYGE&ab_channel=CodinginPublic
+	@font-face {
+		font-family: Aldrich-Regular;
+		src: url(/fonts/Aldrich-Regular.ttf);
+	}
+
+	font-family: 'Aldrich-Regular';
+	font-style: normal;
+}
+
+.navigation {
+	&__element {
+		font-weight: 100;
+		font-size: 1.5vw;
+		line-height: 5vw;
+		text-align: center;
+
+		&:hover {
+			font-size: 1.9vw;
+		}
+	}
+}
+
+.header {
+	&__tittle {
+		font-weight: 700;
+		font-size: 3.8vw;
+	}
+
+	&__description {
+		font-weight: 100;
+		font-size: 1.1vw;
+	}
+
+	&__button {
+		font-weight: 100;
+		font-size: 1.1vw;
+		line-height: 5vw;
+		text-align: center;
+		letter-spacing: 0.215em;
+
+		&:hover {
+			font-size: 1.7vw;
+		}
+	}
+}
