@@ -1,0 +1,16 @@
+
+.header__button {
+	box-sizing: border-box;
+
+	width: 19vw;
+	height: 5vw;
+
+	background: $light-blue-unactive;
+	color: $dark-main;
+	border: 0.1vw solid $dark-main;
+	border-radius: 0.9vw;
+
+	&:hover {
+		background: $light-yellow-hover;
+	}
+}
