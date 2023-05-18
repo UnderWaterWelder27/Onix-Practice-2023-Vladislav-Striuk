@@ -1,0 +1,30 @@
+.navigation {
+
+	&__container {
+		width: 100%;
+		height: 7vw;
+		background: #001E39;
+	}
+
+	&__bar {
+		margin-right: $document-margin-left;
+		margin-left: 17vw;
+		height: 100%;
+	}
+
+	&__element {
+		padding: 1vw;
+		height: 100%;
+		float: right;
+		display: block;
+		color: $light-blue-unactive;
+		transition: 0.4s;
+
+		&:hover {
+			color: #f2f2f2;
+		}
+	
+	}
+}
+
+
