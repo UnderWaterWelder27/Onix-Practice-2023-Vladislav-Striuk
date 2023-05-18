@@ -1,0 +1,24 @@
+.footer {
+	
+
+	&__container {
+		height: 10vw;
+		color: $light-main;
+		box-shadow: 0vw 1vw 2vw 1vw rgba(0, 0, 0, 0.25);
+	}
+
+	&__row {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+
+	a {
+		color: $light-main;
+		transition: 0.4s;
+		&:hover {
+			color: #D6EDFF;
+			scale:calc(1.2);
+		}
+	}
+}
