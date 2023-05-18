@@ -1,0 +1,52 @@
+.section-description {
+	width: 100%;
+	background: linear-gradient(180deg, #4893B4 0%, rgba(1, 20, 37, 0) 100%);
+	margin-top: 0.01vw;
+	
+	&__container {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		color: #D6EDFF;
+		margin-right: 10%;
+	}
+
+	&__image {
+		margin-left: 10%;
+		margin-right: 10%;
+		margin-top: 5%;
+		margin-bottom: 5%;
+
+		img {
+			width: 30vw;
+
+			background: url(realistic_ilustration_of_a_young_ingognito_programmer.png);
+			box-shadow: 0vw 1vw 2vw 1vw rgba(0, 0, 0, 0.25);
+			border-radius: 4vw;	
+			transition: 0.4s;
+			&:hover {
+				box-shadow: none;
+				scale:calc(0.9);
+			}
+		}
+		
+	}
+
+	&__text-column {
+		transition: 0.4s;
+	}
+
+	&__tittle {
+		margin-top: 7%;
+		margin-bottom: 3.1vw;
+	}
+
+	&__text {
+		margin-top: 2vw;
+		margin-bottom: 3vw;
+	}
+
+	ul, li {
+		list-style:disc
+	}
+}
