@@ -97,6 +97,15 @@ ul, li {
   line-height: 5vw;
 }
 
+.footer {
+  text-align: center;
+  font-size: 1.5vw;
+  text-decoration: none;
+}
+.footer__column {
+  line-height: 10vw;
+}
+
 .content, body {
   width: 100%;
   height: 100vw;
@@ -214,6 +223,25 @@ ul, li {
 }
 .section-work__paragraph {
   color: #4992B3;
+}
+
+.footer__container {
+  height: 10vw;
+  color: #4992B3;
+  box-shadow: 0vw 1vw 2vw 1vw rgba(0, 0, 0, 0.25);
+}
+.footer__row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.footer a {
+  color: #4992B3;
+  transition: 0.4s;
+}
+.footer a:hover {
+  color: #D6EDFF;
+  scale: 1.2;
 }
 
 .header__button {
