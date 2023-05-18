@@ -47,3 +47,23 @@
 		}
 	}
 }
+
+.section-description {
+
+	&__text-column {
+		font-size: 1.5vw;
+	}
+
+	&__tittle {
+		font-weight: 700;
+		font-size: 3.71vw;
+	}
+
+	&__list {
+		font-size: 1.4vw;
+	}
+
+	&__list-element {
+		font-size: 1vw;
+	}
+}
