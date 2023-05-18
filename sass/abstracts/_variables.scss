@@ -1,2 +1,36 @@
 $black: #000000;
 $white: #ffffff;
+
+$dark-main:#021A2D;
+$light-main: #4992B3;
+$light-blue-unactive: #4FA3C7;
+$light-yellow-hover: #DAC58E;
+$light-yellow-active: #d7bb76;
+
+$document-margin-left: 8%;
+
+$container-padding: 17px;
+
+$screen-size-breakpoints: (
+	size_01: 'max-width: 1400px',
+	size_02: 'max-width: 1350px',
+	size_03: 'max-width: 1300px',
+	size_04: 'max-width: 1250px',
+	size_05: 'max-width: 1200px',
+	size_06: 'max-width: 1150px',
+	size_07: 'max-width: 1100px',
+	size_08: 'max-width: 1050px',
+	size_09: 'max-width: 1000px',
+	size_10: 'max-width: 950px',
+	size_11: 'max-width: 900px',
+	size_12: 'max-width: 850px',
+	size_13: 'max-width: 800px',
+	size_14: 'max-width: 750px',
+	size_15: 'max-width: 700px',
+	size_16: 'max-width: 650px',
+	size_17: 'max-width: 600px',
+	size_18: 'max-width: 550px',
+	size_19: 'max-width: 500px',
+	size_20: 'max-width: 450px',
+	size_df: 'max-width: none'
+);
